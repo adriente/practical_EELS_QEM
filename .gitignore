@@ -1,0 +1,3 @@
+*.hspy
+
+**/.ipynb_checkpoints/*.ipynb

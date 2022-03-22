@@ -36,3 +36,7 @@ python -m ipykernel install --user --name myenv
 # Running the notebooks
 
 Open the "Anaconda prompt" and go to the folder where the git repository is : `cd /the/path/you/chose`. Then, run the following command : `jupyter lab`
+
+# Simulating data
+
+If you want to run "intermediate_level.ipynb" it better to run the first (and only) cell of "data_simulation.ipynb" first.

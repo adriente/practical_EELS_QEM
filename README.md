@@ -1,5 +1,8 @@
 # practical_EELS_QEM
-Repository to share the content of the EELS data analysis practical of QEM2022
+
+Repository to share the content of the EELS data analysis practical of QEM2022.
+
+Authors : Adrien Teurtrie and Laura Bocher.
 
 # Installation
 
@@ -25,6 +28,8 @@ conda install -c conda-forge hyperspy
 conda install jupyter
 
 conda install jupyterlab
+
+conda install -c conda-forge nodejs
 
 conda install ipykernel
 

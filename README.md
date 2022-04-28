@@ -2,7 +2,7 @@
 
 Repository to share the content of the EELS data analysis practical of QEM2022.
 
-Authors : Adrien Teurtrie and Laura Bocher.
+Authors : Laura Bocher, Hugo Lourenço-Martins, Cécile Marcelot, Sophie Meuret, Adrien Teurtrie, Bénédicte Warot-Fonrose
 
 # Installation
 
@@ -41,7 +41,3 @@ python -m ipykernel install --user --name myenv
 # Running the notebooks
 
 Open the "Anaconda prompt" and go to the folder where the git repository is : `cd /the/path/you/chose`. Then, run the following command : `jupyter lab`
-
-# Simulating data
-
-If you want to run "intermediate_level.ipynb" it better to run the first (and only) cell of "data_simulation.ipynb" first.

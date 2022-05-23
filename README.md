@@ -18,12 +18,14 @@ Run the "Anaconda prompt". A terminal should pop-up.
 
 Then run the following commands (replacing "myenv" by whatever you want): 
 
+**For now the practical only works for hyperspy = 1.6.5, I'll try to fix it later**
+
 ```
 conda create --name myenv
 
 conda activate myenv
 
-conda install -c conda-forge hyperspy 
+conda install -c conda-forge hyperspy = 1.6.5 
 
 conda install jupyter
 

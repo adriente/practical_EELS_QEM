@@ -21,23 +21,25 @@ Then run the following commands (replacing "myenv" by whatever you want):
 **For now the practical only works for hyperspy = 1.6.5, I'll try to fix it later**
 
 ```
-conda create --name myenv
+conda create --name qem python=3.12
 
-conda activate myenv
+conda activate qem
 
-conda install -c conda-forge hyperspy = 1.6.5 
+conda install -c conda-forge hyperspy
 
-conda install jupyter
+conda install -c conda-forge exspy
+
+// conda install jupyter
 
 conda install jupyterlab
 
-conda install -c conda-forge nodejs
+// conda install -c conda-forge nodejs
 
-conda install ipykernel
+// conda install ipykernel
 
 conda install -c conda-forge jupyter_contrib_nbextensions
 
-python -m ipykernel install --user --name myenv
+python -m ipykernel install --user --name qem
 ```
 
 # Running the notebooks
